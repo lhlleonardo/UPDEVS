@@ -22,6 +22,7 @@ export default createGlobalStyle`
     #root {
         margin: 0 auto;
         max-width: 100%;
+        min-height: 100%;
     }
 
     button {
