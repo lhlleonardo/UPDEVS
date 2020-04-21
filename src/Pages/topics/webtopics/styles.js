@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { darken } from 'polished';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     display: flex;
@@ -7,43 +8,46 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; 
 
-    margin-top: 80px;
+        border-bottom: 1px solid #eee;
+        max-width: 700px;
 
-    h1 {
-        padding: 5px;
-    }
+        strong {
+            font-size: 18px;
+            font-weight: bold;
+            color: #000;
+            padding: 5px;
 
-    input {
-        margin: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-        height: 135px;
-        width: 700px;
-        padding: 12px 20px;
-        font-size: 16px;
-        background: #fff;
-        color: #191920;
-        font-weight: normal;
-        transition: 0.5s;
+            margin-top: 25px;
+        }
 
-        &:focus  { 
-                border: 1px solid #FFCC00;
-                height: 140px;
-                width: 710px;
-                font-size: 15px;
-            }
-    }
+        span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #757373;
+            padding: 5px;
 
-    button {
-            padding: 0 30px;
+            margin-top: 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            padding: 0 10px;
             font-size: 16px;
             background: #FFCC00;
             color: #fff;
             font-weight: 600;
             align-content: center;
             align-items: center;
-            border: 1px solid #ddd;
+            border: 0;
             border-radius: 5px;
             overflow: hidden;
             margin-top: auto;
@@ -51,14 +55,18 @@ export const Container = styled.div`
             align-items: center;
             transition: background 0.5s;
             margin: 15px 0px 0px;
-            height: 45px;
-            width: 120px;
+            height: 40px;
             text-decoration: none;
+
+            margin-bottom: 20px;
 
             &:hover {
                 background: ${darken(0.06, '#FFCC00')};
-                border: 1px solid #c0c0c0;
             }
 
         }
-`;
+
+
+    }
+
+`

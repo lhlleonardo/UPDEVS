@@ -1,9 +1,23 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 export default function Accesstopics() {
-    return <div>
-        <h1>Access TOPICS</h1>
-    </div>;
+    return <Container>
+        <div>
+            <strong>APRESENTAÇÃO</strong>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <button>ACESSAR</button>
+        </div>
+        <div>
+            <strong>CONCEITOS</strong>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <button>ACESSAR</button>
+        </div>
+        <div>
+            <strong>DESENVOLVIMENTO</strong>
+            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
+            <button>ACESSAR</button>
+        </div>
+    </Container>;
 }

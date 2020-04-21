@@ -61,7 +61,9 @@ export default function Home() {
                 <p>O objetivo é auxiliar em estudos mais aprofundados.</p>
                 <p>Confira agora mesmo as melhores fontes de pesquisa.</p>
                 <p>Acesse agora mesmo!</p>
-                <button>ACESSAR</button>
+                <Link to="/libtopics">
+                    <button>ACESSAR</button>
+                </Link>
             </div>
         </Libs>
     </Container>;

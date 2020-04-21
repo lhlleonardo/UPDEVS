@@ -1,11 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 import team from '../../assets/team.jpg';
 
 export default function About() {
-    return <div>
+    return <Container>
         <h1>Sobre o UP DEVS</h1>
         <h2>O que é o UP DEVS?</h2>
         <p>O UP DEVS é um site para desenvolvedores da Web, com diretivas e boas práticas em linguagens de desenvolvimento da Web, como HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, Java, C ++, C #, React, XML, W3.CSS e Bootstrap, cobrindo a maioria aspectos da programação web.</p>
@@ -13,6 +13,7 @@ export default function About() {
         <h2>Você pode colaborar!</h2>
         <p>Se econtrar algum erro ou sugerir melhorias e conteúdos, utilize nosso recurdo de feedback.</p>
         <h2>Nossa equipe.</h2>
-        <img src={team}></img>
-    </div>;
+        <img src={team} alt="Team developers"></img>
+        <span>OBRIGADO POR ACESSAR NOSSO CONTEÚDO!</span>
+    </Container>;
 }
