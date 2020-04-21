@@ -18,6 +18,14 @@ import Newcontenthtml from './Pages/Content/htmlcontent/news/index';
 import Goodcontenthtml from './Pages/Content/htmlcontent/goodpractice/index';
 import Bestcontenthtml from './Pages/Content/htmlcontent/bestcontent/index';
 
+import Studycontentcss from './Pages/Content/csscontent/study/index';
+import Goodcontentcss from './Pages/Content/csscontent/goodpractice/index';
+import Bestcontentcss from './Pages/Content/csscontent/bestcontent/index';
+
+import Studycontentjava from './Pages/Content/javascriptcontent/study/index';
+import Goodcontentjava from './Pages/Content/javascriptcontent/goodpractice/index';
+import Bestcontentjava from './Pages/Content/javascriptcontent/bestcontent/index'
+
 export default function Routes() {
     return (
         <Switch>
@@ -36,6 +44,12 @@ export default function Routes() {
             <Route path="/htmlgoodcontent" component={Goodcontenthtml} />
             <Route path="/htmlnews" component={Newcontenthtml} />
             <Route path="/htmlstudy" component={Studycontenthtml} />
+            <Route path="/cssbestcontent" component={Bestcontentcss} />
+            <Route path="/cssgoodcontent" component={Goodcontentcss} />
+            <Route path="/cssstudy" component={Studycontentcss} />
+            <Route path="/javabestcontent" component={Bestcontentjava} />
+            <Route path="/javagoodcontent" component={Goodcontentjava} />
+            <Route path="/javastudy" component={Studycontentjava} />
         </Switch>
     );
 }

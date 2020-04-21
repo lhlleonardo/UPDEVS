@@ -46,6 +46,7 @@ export const Container = styled.div`
 
         a:-webkit-any-link {
             color: #fff;
+            text-decoration: none;   
         }
 
 

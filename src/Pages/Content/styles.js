@@ -8,6 +8,16 @@ export const Container = styled.div`
     align-items: center;
     background: #fff;
 
+    iframe {
+        margin-top: 45px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #95389e;
+        font-weight: bolder;
+    }
+
     div {
         display: flex;
         flex-direction: column;
