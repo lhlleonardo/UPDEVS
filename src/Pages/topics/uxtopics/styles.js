@@ -11,10 +11,14 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start; 
+        align-items: center; 
 
         border-bottom: 1px solid #eee;
-        max-width: 700px;
+        max-width: 900px;
+
+        a {
+            text-decoration: none;
+        }
 
         strong {
             font-size: 18px;
@@ -60,5 +64,9 @@ export const Container = styled.div`
             }
 
         }
+
+        button:last-child {
+        margin-bottom: 50px;
+    }
     }
 `

@@ -6,8 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #fff;
-
+    
     iframe {
         margin-top: 45px;
     }
@@ -65,6 +64,10 @@ export const Container = styled.div`
     }
 
     span:last-child {
+        margin-bottom: 50px;
+    }
+
+    iframe:last-child {
         margin-bottom: 50px;
     }
 `;

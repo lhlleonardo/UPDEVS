@@ -26,6 +26,11 @@ import Studycontentjava from './Pages/Content/javascriptcontent/study/index';
 import Goodcontentjava from './Pages/Content/javascriptcontent/goodpractice/index';
 import Bestcontentjava from './Pages/Content/javascriptcontent/bestcontent/index'
 
+import Uxbegin from './Pages/Content/uxcontent/begin/index';
+import Uxdev from './Pages/Content/uxcontent/dev/index';
+import Uxvideo from './Pages/Content/uxcontent/video/index';
+import Uxcontent from './Pages/Content/uxcontent/why/index';
+
 export default function Routes() {
     return (
         <Switch>
@@ -50,6 +55,10 @@ export default function Routes() {
             <Route path="/javabestcontent" component={Bestcontentjava} />
             <Route path="/javagoodcontent" component={Goodcontentjava} />
             <Route path="/javastudy" component={Studycontentjava} />
+            <Route path="/uxbegin" component={Uxbegin} />
+            <Route path="/uxdevlopers" component={Uxdev} />
+            <Route path="/uxvideos" component={Uxvideo} />
+            <Route path="/uxcontent" component={Uxcontent} />
         </Switch>
     );
 }
