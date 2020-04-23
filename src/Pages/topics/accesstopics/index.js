@@ -1,23 +1,12 @@
 import React from 'react';
 
 import { Container } from './styles';
+import search from '../../../assets/search.svg';
 
 export default function Accesstopics() {
     return <Container>
-        <div>
-            <strong>APRESENTAÇÃO</strong>
-            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
-            <button>ACESSAR</button>
-        </div>
-        <div>
-            <strong>CONCEITOS</strong>
-            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
-            <button>ACESSAR</button>
-        </div>
-        <div>
-            <strong>DESENVOLVIMENTO</strong>
-            <span>XXXXXXXXXXXXXXXXXXXXXXXXXXXX</span>
-            <button>ACESSAR</button>
-        </div>
+        <img src={search}/>
+        <h1>AINDA ESTAMOS BUSCANDO O MELHOR CONTEÚDO PARA VOCÊ!</h1>
+        <h2>OBRIGADO POR ACESSAR NOSSO CONTEÚDO!</h2>
     </Container>;
 }
